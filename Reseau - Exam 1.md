@@ -326,3 +326,6 @@ On distingue généralement les topologies suivantes :
 La topologie logique, par opposition à la topologie physique, représente la façon dont les données transitent dans les lignes de communication. Les topologies logiques les plus courantes sont Ethernet, Token Ring et FDDI.
 
 ![alt](https://www.aquaportail.com/pictures2203/topologie-de-reseau.jpg)
+
+# Bonus
+https://uptime.is/reverse
