@@ -34,16 +34,16 @@ Le but est de donner un avantage temporaire à l’inventeur en évitant qu’il
 
 **Les critères d’une invention brevetable**
 
-    1. Être nouvelle: il ne doit pas exister déjà une invention semblable
-    2. Être utile: elle doit constituer une solution technique à un problème technique
-    3. Être inventive: elle ne doit pas être évidente pour une personne qui connaît le domaine
+1. Être nouvelle: il ne doit pas exister déjà une invention semblable
+2. Être utile: elle doit constituer une solution technique à un problème technique
+3. Être inventive: elle ne doit pas être évidente pour une personne qui connaît le domaine
 
 
 **Exemple de brevetable**
 
-    - Une méthode d’emballage alimentaire qui prolonge la période de conservation des aliments.
-    - Une formule chimique pour un une substance qui améliore l’imperméabilité des tissus.
-    - Une technique permettant de désaliniser l’eau de mer pour la rendre potable.
+- Une méthode d’emballage alimentaire qui prolonge la période de conservation des aliments.
+- Une formule chimique pour un une substance qui améliore l’imperméabilité des tissus.
+- Une technique permettant de désaliniser l’eau de mer pour la rendre potable.
 
 
 On ne peut pas breveter n’importe quoi, évidemment: pour des raisons légales ou éthiques, la loi interdit de breveter certaines choses. 
@@ -52,18 +52,18 @@ L’objectif est de protéger les vraies inventions, pas de limiter l’utilisat
 
 **Ainsi il est impossible de déposer une demande de brevet pour les choses suivantes:**
 
-    - Une idée ou un concept
-    - Une théorie scientifique
-    - Une méthode de traitement médical
-    - Des formes de vie supérieures (par exemple un être vivant modifié génétiquement)
-    - Des formes d’énergie
-    - Des inventions non-techniques ou esthétiques
-    - Des imprimés
+- Une idée ou un concept
+- Une théorie scientifique
+- Une méthode de traitement médical
+- Des formes de vie supérieures (par exemple un être vivant modifié génétiquement)
+- Des formes d’énergie
+- Des inventions non-techniques ou esthétiques
+- Des imprimés
 
 **Exemple de non-brevetable**
 
-    - Une pelle pour gauchers. (Une pelle ordinaire est autant utilisable pour les gauchers que le droitiers, donc il n’existe pas de problème technique dont l’invention serait la solution.)
-    - Une technique de méditation pour améliorer la relaxation. (La relaxation n’est pas un problème technique et n’a pas réellement d’application industrielle.)
+- Une pelle pour gauchers. (Une pelle ordinaire est autant utilisable pour les gauchers que le droitiers, donc il n’existe pas de problème technique dont l’invention serait la solution.)
+- Une technique de méditation pour améliorer la relaxation. (La relaxation n’est pas un problème technique et n’a pas réellement d’application industrielle.)
 
 # [License](https://otardi.gitlab.io/420-313/pi/licences/)
 
@@ -72,21 +72,21 @@ En Informatique, le copyright n'existe pas, on parle seulement de copyleft.
 
 **Licences copyleft** les 4 libertés, et aussi l’obligation que les versions modifiées d’un logiciel libre soient elles aussi distribuées comme un logiciel libre. Le but est d’éviter une situation où des entreprises copient un logiciel libre, y apportent des modifications et le publient ensuite comme un logiciel commercial, tirant profit du travail bénévole des programmeurs qui l’ont créé à l’origine.
 
-    - GPL (GNU General Public License)
-    - LGPL (GNU Lesser General Public License)
-    - MPL (Mozilla Public License)
+- GPL (GNU General Public License)
+- LGPL (GNU Lesser General Public License)
+- MPL (Mozilla Public License)
 
 **Licences permissives**
 Les licences permissives autorisent de copier, distribuer et modifier le code tout en autorisant que des logiciels propriétaires (non libres) soient créés à partir du code.
 
-    - BSD
-    - MIT
-    - Apache
+- BSD
+- MIT
+- Apache
 
 **Difference Principal**    
 
-    - Lorsqu'on modifie un logiciel copyleft, on est obligé de conserver son nouveau code modifié sous open source afin qu'il puisse être accessible au public.
-    - Alors que, lorsqu'on modifie un logiciel permissif, il n'y a aucune restriction de ce genre, sauf celle de donner crédit à l'œuvre originale.
+- Lorsqu'on modifie un logiciel copyleft, on est obligé de conserver son nouveau code modifié sous open source afin qu'il puisse être accessible au public.
+- Alors que, lorsqu'on modifie un logiciel permissif, il n'y a aucune restriction de ce genre, sauf celle de donner crédit à l'œuvre originale.
 
 # [Clés](https://otardi.gitlab.io/420-313/cryptographie1/moderne/#clés-publiques)
 
