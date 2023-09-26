@@ -90,10 +90,10 @@ Les licences permissives autorisent de copier, distribuer et modifier le code to
 
 # [Clés](https://otardi.gitlab.io/420-313/cryptographie1/moderne/#clés-publiques)
 
-### Clé asymétrique
+### Clé symétrique
 Le terme chiffrement symétrique désigne un système de chiffrement qui utilise **la même clé** pour chiffrer et déchiffrer les messages.
 
-### Clé symétrique
+### Clé asymétrique
 Les termes chiffrement asymétrique ou chiffrement par clé publique désignent un système de chiffrement qui utilise **des clés différentes** pour chiffrer et déchiffrer les messages.
 
 ### *Exemple*
