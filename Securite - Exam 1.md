@@ -3,10 +3,9 @@
 On nomme souvent ces trois axes la “triade de cybersécurité”, regroupés sous l’acronyme CIA (de l’anglais Confidentiality, Integrity, Availability).
 
 Cest trois axes sont:
-    
-    1. La confidentialité
-    2. L’intégrité
-    3. La disponibilité
+1. La confidentialité
+2. L’intégrité
+3. La disponibilité
 
 
 
