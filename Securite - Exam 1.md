@@ -19,11 +19,11 @@ Deux éléments sont centraux à la notion de risque: la probabilité et l’imp
 
 Exemple: 
     
-    - Un évènement assez probable et dont l’impact est important aura un haut niveau de risque. Par exemple, la perte ou le vol d’un disque dur amovible contenant des secrets militaires.
+- Un évènement assez probable et dont l’impact est important aura un haut niveau de risque. Par exemple, la perte ou le vol d’un disque dur amovible contenant des secrets militaires.
 
-    - Un évènement peu probable et dont l’impact est négligeable aura un faible niveau de risque. Par exemple, le fait de deviner le mot de passe de 24 caractères du compte root d’un serveur qui ne contient aucune donnée importante.
+- Un évènement peu probable et dont l’impact est négligeable aura un faible niveau de risque. Par exemple, le fait de deviner le mot de passe de 24 caractères du compte root d’un serveur qui ne contient aucune donnée importante.
 
-    - Un évènement rare mais très grave aura environ le même niveau de risque qu’un évènement très probable mais anodin. Par exemple, un incendie dans la salle des serveurs a le même niveau de risque qu’un utilisateur qui oublie son mot de passe.
+- Un évènement rare mais très grave aura environ le même niveau de risque qu’un évènement très probable mais anodin. Par exemple, un incendie dans la salle des serveurs a le même niveau de risque qu’un utilisateur qui oublie son mot de passe.
 
 ![alt text](https://otardi.gitlab.io/420-313/images/matrisque2.png)
 
