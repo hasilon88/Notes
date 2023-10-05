@@ -1,6 +1,6 @@
 # Different types of data structures  
 
-![alt]([https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/03/hierarchy-of-collection-framework-in-java.webp](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/03/collection-framework-hierarchy-in-java.jpg))
+![alt](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/03/collection-framework-hierarchy-in-java.jpg)
 
 ## Map
 In Java, a `Map` is an interface from the Java Collections Framework that represents a collection of key-value pairs. It allows you to store and manage data in a way where each piece of data is associated with a unique key, which can be used to retrieve the corresponding value. Maps are widely used to store data in a structured manner and provide efficient data retrieval.
