@@ -171,7 +171,7 @@ Additionally, there are two other common operations associated with a queue:
 3.  **Peek (or Front)**: This operation retrieves the element at the front of the queue without removing it.  
 4.  **isEmpty**: This operation checks if the queue is empty.  
   
-![alt](https://files.codingninjas.in/article_images/queue-20426.png)
+![alt](https://media.geeksforgeeks.org/wp-content/uploads/20220817115055/Queue-660x234.png)
   
 **Code Example**  
   
