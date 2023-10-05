@@ -361,10 +361,102 @@ To sort a list of custom objects, you can use new comparator. This allows you to
 
 ```java
 playlist.getPlaylist().sort(new Comparator<Song>() {  
-    @Override  
+    @Override
     public int compare(Song o1, Song o2) {  
         return o1.getName().compareTo(o2.getName());  
     }  
 });
 ```
+# Json
 
+**JSON (JavaScript Object Notation)** is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. JSON is widely used for representing structured data and is commonly used for data exchange between a server and a client, as well as for configuration files, web APIs, and more.
+
+```json
+{
+    "name": "John",
+    "age": 30,
+    "isStudent": false,
+    "address": {
+        "street": "123 Main St",
+        "city": "Exampleville"
+    },
+    "hobbies": ["reading", "swimming"]
+}
+```
+
+### Reading or Writing to a JSON file using Jackson
+To read or write in a JSON file from Java, you can use Jackson. To install Jackson, you need the following dependencies:
+
+```java
+<dependencies>
+    
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>2.15.2</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.15.2</version>
+    </dependency>
+
+</dependencies>
+```
+
+**Read Json file**
+```java
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.File;
+import java.io.IOException;
+
+public class JsonFileReader {
+    public static void main(String[] args) throws Exception {
+        ObjectMapper objectMapper = new ObjectMapper();
+        File jsonFile = new File("data.json"); // Replace with the path to your JSON file
+
+        // Deserialize JSON from the file into a Person object
+        Person person = objectMapper.readValue(jsonFile, Person.class);
+
+        // Access the data
+        System.out.println("Name: " + person.getName());
+        System.out.println("Age: " + person.getAge());
+        System.out.println("Email: " + person.getEmail());
+    }
+}
+```
+
+**Write Json file**
+
+```java
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class WriteJsonWithJackson {
+    public static void main(String[] args) throws IOException {
+        // Create an ObjectMapper instance
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        // Create a list of Person objects
+        List<Person> people = new ArrayList<>();
+        people.add(new Person("Alice", 25, "alice@example.com"));
+        people.add(new Person("Bob", 30, "bob@example.com"));
+        people.add(new Person("Charlie", 28, "charlie@example.com"));
+
+        // Specify the path to the JSON file you want to write
+        File jsonFile = new File("people.json");
+
+        // Serialize the list of Person objects and write to the JSON file
+        objectMapper.writeValue(jsonFile, people);
+
+        System.out.println("Data has been written to people.json.");
+    }
+}
+```
