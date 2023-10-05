@@ -218,7 +218,7 @@ Additionally, there are two other common operations associated with a stack:
 4.  **Peek (or Top)**: This operation retrieves the top element from the stack without removing it.  
 5.  **isEmpty**: This operation checks if the stack is empty.  
   
-![alt](https://files.codingninjas.in/article_images/stacks-20415.webp)
+![alt](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726165552/Stack-Data-Structure.png)
   
 **Code Example**  
   
