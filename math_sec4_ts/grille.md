@@ -38,3 +38,5 @@ On vérifie si les différentes étapes de ta démarche sont cohérentes et s’
 *Critère 2.3* – Démarche pertinente (10 points)
 
 On vérifie que tu as structuré ta démarche en respectant les règles et les conventions mathématiques. On s’assure que tu présentes une réponse cohérente avec ta démarche et avec le contexte du problème.
+
+![alt](https://challenge1.s3.amazonaws.com/a3f05adf-adc9-4f50-ad4b-8f35a547411d/etonge_Grille20deCC81valuation.jpg)
