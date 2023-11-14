@@ -11,7 +11,7 @@
 1. Ouvrez ou créez un fichier dans /etc/fail2ban/jail.d/. Par exemple, vous pouvez nommer ce fichier defaults-debian.local.
 
 2. Ajoutez ou modifiez les configurations suivantes :
-    ```
+
     [DEFAULT]
     ignoreip = 127.0.0.1/8 192.168.23.21
     findtime = 720  # 12 minutes en secondes
@@ -20,7 +20,7 @@
 
     [sshd]
     enabled = true
-    ```
+
 
 ```
 </p>
@@ -36,7 +36,7 @@
 <p>
 
 ```
-*Hydra est un moyen d'attaque car il permet de crack des mots de passes.*
+Hydra est un moyen d'attaque car il permet de crack des mots de passes.
 ```
 
 </p>
@@ -72,7 +72,7 @@ hydra -L util.txt -P mots.txt 10.100.23.78 ssh
 <p>
 
 ```
-*Fail2ban est un outil de défense car il permet de blocker des addresses IP suspects.*
+Fail2ban est un outil de défense car il permet de blocker des addresses IP suspects.
 ```
 
 </p>
@@ -98,7 +98,7 @@ Expliquez à quoi sert le « `#` » ici, et ce qui se passerait s’il était ab
 <p>
 
 ```
-*Permet d'ignorer le reste de la requête puisque ça met le reste en commentaire. Cela prévient des erreurs de syntaxes ou d'autres problèmes.*
+Permet d'ignorer le reste de la requête puisque ça met le reste en commentaire. Cela prévient des erreurs de syntaxes ou d'autres problèmes.
 ```
 
 </p>
@@ -115,7 +115,7 @@ Expliquez à quoi sert le « `#` » ici, et ce qui se passerait s’il était ab
 <p>
 
 ```
-*Parce qu'il faut que les deux requêtes ont le meme nombre de colonnes.*
+Parce qu'il faut que les deux requêtes ont le meme nombre de colonnes.
 ```
 </p>
 </details>
