@@ -7,6 +7,7 @@
 <summary><b>🔑 Solution</b></summary>
 <p>
 
+```
 1. Ouvrez ou créez un fichier dans /etc/fail2ban/jail.d/. Par exemple, vous pouvez nommer ce fichier defaults-debian.local.
 
 2. Ajoutez ou modifiez les configurations suivantes :
@@ -20,10 +21,10 @@
     [sshd]
     enabled = true
     ```
+
+```
 </p>
 </details>
-<br/>
-
 
 ---
 
@@ -34,12 +35,12 @@
 <summary><b>🔑 Solution</b></summary>
 <p>
 
+```
 *Hydra est un moyen d'attaque car il permet de crack des mots de passes.*
+```
 
 </p>
 </details>
-<br/>
-
 
 ---
 
@@ -55,13 +56,11 @@
 <p>
 
 ```
-hydra -L util.txt -P mots.txt
+hydra -L util.txt -P mots.txt 10.100.23.78 ssh
 ```
 
 </p>
 </details>
-<br/>
-
 
 ---
 
@@ -72,12 +71,12 @@ hydra -L util.txt -P mots.txt
 <summary><b>🔑 Solution</b></summary>
 <p>
 
+```
 *Fail2ban est un outil de défense car il permet de blocker des addresses IP suspects.*
+```
 
 </p>
 </details>
-<br/>
-
 
 ---
 
@@ -98,11 +97,12 @@ Expliquez à quoi sert le « `#` » ici, et ce qui se passerait s’il était ab
 <summary><b>🔑 Solution</b></summary>
 <p>
 
+```
 *Permet d'ignorer le reste de la requête puisque ça met le reste en commentaire. Cela prévient des erreurs de syntaxes ou d'autres problèmes.*
+```
 
 </p>
 </details>
-<br/>
 
 ---
 
@@ -114,11 +114,11 @@ Expliquez à quoi sert le « `#` » ici, et ce qui se passerait s’il était ab
 <summary><b>🔑 Solution</b></summary>
 <p>
 
+```
 *Parce qu'il faut que les deux requêtes ont le meme nombre de colonnes.*
-
+```
 </p>
 </details>
-<br/>
 
 ---
 
@@ -135,12 +135,11 @@ Expliquez ce que vous pouvez en conclure.
 <summary><b>🔑 Solution</b></summary>
 <p>
 
-*On performe une attaque de type `XSS basée sur le DOM` car elle modifie le `DOM` du code `HTML` correspendant. Donc, ce type d'injection en fonctionne pas car il n'est pas possible d'injecter dans du code `HTML`.*
-
+```
+On performe une attaque de type `XSS basée sur le DOM` car elle modifie le `DOM` du code `HTML` correspendant. Donc, ce type d'injection en fonctionne pas car il n'est pas possible d'injecter dans du code `HTML`.
+```
 </p>
 </details>
-<br/>
-
 
 ---
 
@@ -157,8 +156,6 @@ SELECT column_name FROM information_schema.COLUMNS WHERE table_name='produits';
 
 </p>
 </details>
-<br/>
-
 
 ---
 
@@ -174,12 +171,11 @@ Quel type de XSS a pour effet de modifier le contenu de la BD qui contient les d
 <summary><b>🔑 Solution</b></summary>
 <p>
 
-`Les XSS stockées` car c'est dans la base de donnée que le code javascript malveillant est stocké.
-
+```
+Les XSS stockées car c'est dans la base de donnée que le code javascript malveillant est stocké.
+```
 </p>
 </details>
-<br/>
-
 
 ---
 
@@ -207,14 +203,11 @@ Quel est le type de cette `XSS (stockée, réfléchie, basée sur le DOM)`? Expl
 <summary><b>🔑 Solution</b></summary>
 <p>
 
-*`XSS stockée` car le code est stockée est dans la base de donnée.*
+```
+XSS stockée car le code est stockée est dans la base de donnée.
+```
 
 </p>
 </details>
-<br/>
-
 
 ---
-
-
-
